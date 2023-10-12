@@ -1,0 +1,21 @@
+
+.box {
+    background: none;
+}
+
+.main2 {
+    padding: 40px 0;
+    align-content: center;
+}
+
+.up-icon {
+    font-size: 30px;
+}
+
+.white-square {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}

@@ -1,0 +1,106 @@
+* {
+    transition: all 0.5s;
+}
+
+.flexH {
+    display: flex; 
+    flex-direction: column;
+}
+
+.shadow {
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.57);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.57);
+}
+
+.horizontal {
+    font-size: 20px;
+    gap: 20px;
+    display: flex;
+    min-height: 450px;
+}
+
+.horbox {
+    min-width: 33%;
+}
+
+.horparent {
+    margin: 60px;
+    margin-bottom: 0;
+    padding: 40px;
+    overflow: hidden;
+}
+
+.left,
+.right {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.left:hover, 
+.right:hover {
+    border: 2px solid #fff;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Slides part */
+
+.img-box1 {
+    background-image: url("img/slideImg1.webp");
+}
+
+.img-box2 {
+    background-image: url("img/slideImg2.avif");
+    background-position: center right;
+}
+
+.img-box3 {
+    background-image: url("img/slideImg3.jpg");
+}
+
+.img-box4 {
+    background-image: url("img/slideImg4.jpg");
+}
+
+.img-box1, 
+.img-box2, 
+.img-box3, 
+.img-box4 {
+    background-size: cover;
+    height: 60%;
+}
+
+.text-box {
+    padding: 20px 40px;
+}
+
+.horbox:hover{
+    opacity: 0.7;
+    margin: 4px;
+    box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px 7px rgba(0,0,0,0.75);
+}
+
+.scroll {
+    margin-top: 20px;
+    gap: 40px; 
+}
+
+footer {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+/*  */
+.carousel-title {
+    font-family: 'Dancing Script', cursive;;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
