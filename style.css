@@ -124,20 +124,6 @@ nav {
     gap: 20px;
 }
 
-.twoBoxes p {
-    width: 150px;
-    border: 1px solid #fff;
-    padding: 10px;
-    cursor: pointer;
-    text-align: center;
-    transition:  all .5s;
-}
-
-.twoBoxes p:hover {
-    background-color: #fff;
-    color: #000;
-}
-
 .down-icon {
     font-size: 30px;
     cursor: pointer;
@@ -284,3 +270,22 @@ nav {
     font-size: 30px;
 }
 
+/*  */
+.readMore{
+    text-decoration: none;
+    width: 150px;
+    border: 1px solid #fff;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition:  all .5s;
+}
+
+.readMore:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.savoir {
+    text-decoration: none;
+}
